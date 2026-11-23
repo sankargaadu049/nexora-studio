@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sankargaadu049.github.io/nexora-studio/sitemap.xml

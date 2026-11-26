@@ -178,9 +178,6 @@ footer {
 #services h3 {
   color: #fff;
   margin-bottom: 10px;
-}
-  html {
-    scroll-behavior: smooth;
   }
   
 /* FADE IN ANIMATION */
@@ -195,6 +192,23 @@ footer {
         opacity: 1;
         transform: translateY(0);
     }
+}
+  html {
+    scroll-behavior: smooth;
+  }
+  /* BUTTON HOVER EFFECT */
+
+button,
+.btn,
+a.button {
+    transition: all 0.3s ease;
+}
+
+button:hover,
+.btn:hover,
+a.button:hover {
+    transform: translateY(-4px);
+    opacity: 0.85;
 }
 
 .hero {
